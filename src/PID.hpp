@@ -1,5 +1,3 @@
-#inlcude <ctime>
-
 class PID {
 //PID settings values
   float Ti;
@@ -12,8 +10,9 @@ class PID {
   float CV; //Controll Variable - error ie. SP - PV
 
 //needed variables
-  float Ts; //sample time
+  float Ts; //sample time in miliseconds
   float integralValue;
+  float previousError;
 
 public:
   PID(float Ts, float Ti, float Td, float kp);
@@ -21,12 +20,15 @@ public:
 
   ~PID() {}
 
-  void setPointValue();
+  void setPointValue(float SP);
+  void setProcessVariableValue(float PV);
 
-  //calculation - return current error
+  void tunePID(float Ti, float Td, float kp);
+
+  //calculation - return current PID value
   float runPID();
 
 protected:
   float derivative(float previousError, flaot error);
-  float integral(float error);
+  void integral(float error);
 };
