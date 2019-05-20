@@ -11,3 +11,9 @@ Current state of this project is very-alpha, but in the future I'm looking forwa
 As soon as I come up with something more, I'll add it to this list. 
 
 As for now (2019-05-19) there is only an option to fiddle around with PID controller.
+
+Small docs:
+----
+Curently there are no advance methods for numerical analysis.
+Integral numerical analysis is just a simple rectangle method for both PID and Integral block.
+Derivative is calculated by substraction of current and previos value, and the result is divided by sample time.

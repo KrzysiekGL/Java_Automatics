@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb8a892-39bc-4e7d-b85c-14a4ac327759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Derivative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Gain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Integral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Object.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/PID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/PID_IND.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Object.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +94,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Object.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+                <state relative-caret-position="95">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -221,16 +215,15 @@
       <updated>1558298820003</updated>
       <workItem from="1558298822830" duration="194000" />
       <workItem from="1558299125390" duration="5765000" />
-      <workItem from="1558379651221" duration="3007000" />
+      <workItem from="1558379651221" duration="3328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8966000" />
+    <option name="totallyTimeSpent" value="9287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="119" width="1922" height="1052" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1" y="119" width="1922" height="1052" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17944622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -333,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
