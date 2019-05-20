@@ -4,9 +4,13 @@ public final class Integral {
     private int Ts;                 //sample time in milliseconds
     private double integralVal;
     
-    public Integral(int sampleTime) {
+    public Integral(int sampleTime, double initialCondition) {
         this.Ts = sampleTime;
-        integralVal = 0;
+        this.integralVal = initialCondition;
+    }
+    
+    public Integral(int sampleTime) {
+        this(sampleTime, 0);
     }
     
     public void resetIntegral() {
