@@ -20,7 +20,7 @@ public final class PID {
     }
     
     public PID(int sampleTime) {
-        this(sampleTime, 0, 999999, 0);
+        this(sampleTime, 0, 0, 0);
     }
     
     //PID tuning
