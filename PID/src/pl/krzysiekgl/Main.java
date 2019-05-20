@@ -6,13 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
         
-        PID pid = new PID(100, 0.5, 0.3, 0);
+        PID_IND pidIND = new PID_IND(100, 0.5, 0.3, 0);
         
         double setValue = 1;
         double processVal = 0;
         int time = 0;
         while(true) {
-            processVal = pid.calculate(setValue, processVal);
+            processVal = pidIND.calculate(setValue, processVal);
             System.out.println(time + ";" + processVal);
             
             try {
