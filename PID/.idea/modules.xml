@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PID.iml" filepath="$PROJECT_DIR$/PID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Automatics.iml" filepath="$PROJECT_DIR$/Java_Automatics.iml" />
     </modules>
   </component>
 </project>
