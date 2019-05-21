@@ -1,15 +1,15 @@
 package pl.krzysiekgl;
 
 public final class Integral {
-    private int Ts;                 //sample time in milliseconds
+    private double Ts;                 //sample time in milliseconds
     private double integralVal;
     
-    public Integral(int sampleTime, double initialCondition) {
+    public Integral(double sampleTime, double initialCondition) {
         this.Ts = sampleTime;
         this.integralVal = initialCondition;
     }
     
-    public Integral(int sampleTime) {
+    public Integral(double sampleTime) {
         this(sampleTime, 0);
     }
     
@@ -33,7 +33,7 @@ public final class Integral {
         return integralVal;
     }
     
-    public int getTs() {
+    public double getTs() {
         return Ts;
     }
 }

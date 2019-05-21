@@ -1,7 +1,7 @@
 package pl.krzysiekgl;
 
 public final class PID_IND {
-    private int Ts;     //sample time in milliseconds
+    private double Ts;     //sample time in milliseconds
     private double Kp;  //proportional gain
     private double Ki;  //integral gain
     private double Kd;  //derivative gain
@@ -9,7 +9,7 @@ public final class PID_IND {
     private double prevError;
     private double integralVal;
     
-    public PID_IND(int sampleTime, double proportionalGain, double integralGain, double derivativeGain) {
+    public PID_IND(double sampleTime, double proportionalGain, double integralGain, double derivativeGain) {
         this.Ts = sampleTime;
         this.Kp = proportionalGain;
         this.Ki = integralGain;
@@ -19,7 +19,7 @@ public final class PID_IND {
         integralVal = 0;
     }
     
-    public PID_IND(int sampleTime) {
+    public PID_IND(double sampleTime) {
         this(sampleTime, 0, 0, 0);
     }
     
