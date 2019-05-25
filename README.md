@@ -16,4 +16,4 @@ Small docs:
 ----
 Curently there are no advance methods for numerical analysis.
 Integral numerical analysis is just a simple rectangle method for both PID and Integral block.
-Derivative is calculated by substraction of current and previos value, and the result is divided by sample time.
+Derivative is calculated by substraction of current and previos value, and the result is divided by the sample time.
