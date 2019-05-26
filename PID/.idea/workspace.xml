@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb8a892-39bc-4e7d-b85c-14a4ac327759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/objects/GlobalSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/AnalogScheme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Derivative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Gain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/mathfunctions/Gain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Integral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/mathfunctions/Integral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Object.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/PID_IND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -37,17 +29,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="659">
+              <caret line="103" column="80" lean-forward="true" selection-start-line="103" selection-start-column="80" selection-end-line="103" selection-end-column="80" />
               <folding>
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
                 <element signature="e#916#917#0" expanded="true" />
                 <element signature="e#944#945#0" expanded="true" />
                 <element signature="e#1057#1058#0" expanded="true" />
                 <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
                 <element signature="e#1077#1078#0" expanded="true" />
                 <element signature="e#1105#1106#0" expanded="true" />
               </folding>
@@ -82,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/objects/mathfunctions/Integral.java" />
         <option value="$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java" />
         <option value="$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java" />
-        <option value="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" />
         <option value="$PROJECT_DIR$/src/objects/plants/FirstOredrLag.java" />
+        <option value="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" />
         <option value="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" />
       </list>
     </option>
@@ -215,12 +210,12 @@
       <workItem from="1558379651221" duration="3328000" />
       <workItem from="1558383108831" duration="2039000" />
       <workItem from="1558472253811" duration="5715000" />
-      <workItem from="1558873160100" duration="2097000" />
+      <workItem from="1558873160100" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19138000" />
+    <option name="totallyTimeSpent" value="22064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="119" width="1922" height="1052" extended-state="6" />
@@ -340,24 +335,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="659">
+          <caret line="103" column="80" lean-forward="true" selection-start-line="103" selection-start-column="80" selection-end-line="103" selection-end-column="80" />
           <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
             <element signature="e#916#917#0" expanded="true" />
             <element signature="e#944#945#0" expanded="true" />
             <element signature="e#1057#1058#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
             <element signature="e#1077#1078#0" expanded="true" />
             <element signature="e#1105#1106#0" expanded="true" />
           </folding>
