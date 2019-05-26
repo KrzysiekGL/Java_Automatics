@@ -1,11 +1,13 @@
-package pl.krzysiekgl;
+package objects.mathfunctions;
 
-public final class Derivative {
+import objects.GlobalSettings;
+
+public final class Derivative implements GlobalSettings {
     private double Ts;             //sample time in milliseconds
     private double prevValue;   //previous value necessary for calculations
     
     public Derivative(double sampleTime, double initialCondition) {
-        this.Ts = sampleTime;
+        setSampleTime(sampleTime);
         prevValue = initialCondition;
     }
     
@@ -27,5 +29,12 @@ public final class Derivative {
     
     public double getPrevValue() {
         return prevValue;
+    }
+    
+    
+    //Interface
+    @Override
+    public void setSampleTime(double Ts) {
+        this.Ts = Ts;
     }
 }

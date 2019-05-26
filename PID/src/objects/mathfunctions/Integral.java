@@ -1,11 +1,13 @@
-package pl.krzysiekgl;
+package objects.mathfunctions;
 
-public final class Integral {
+import objects.GlobalSettings;
+
+public final class Integral implements GlobalSettings {
     private double Ts;                 //sample time in milliseconds
     private double integralVal;
     
     public Integral(double sampleTime, double initialCondition) {
-        this.Ts = sampleTime;
+        setSampleTime(sampleTime);
         this.integralVal = initialCondition;
     }
     
@@ -35,5 +37,11 @@ public final class Integral {
     
     public double getTs() {
         return Ts;
+    }
+    
+    //Interface
+    @Override
+    public void setSampleTime(double Ts) {
+        this.Ts = Ts;
     }
 }

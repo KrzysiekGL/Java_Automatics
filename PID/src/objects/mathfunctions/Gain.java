@@ -1,4 +1,4 @@
-package pl.krzysiekgl;
+package objects.mathfunctions;
 
 public final class Gain {
     private double gain;

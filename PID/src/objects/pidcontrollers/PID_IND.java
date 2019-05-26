@@ -1,7 +1,9 @@
-package pl.krzysiekgl;
+package objects.pidcontrollers;
 
-public final class PID_IND {
-    private double Ts;     //sample time in milliseconds
+import objects.GlobalSettings;
+
+public final class PID_IND implements GlobalSettings {
+    private double Ts;  //sample time
     private double Kp;  //proportional gain
     private double Ki;  //integral gain
     private double Kd;  //derivative gain
@@ -10,7 +12,7 @@ public final class PID_IND {
     private double integralVal;
     
     public PID_IND(double sampleTime, double proportionalGain, double integralGain, double derivativeGain) {
-        this.Ts = sampleTime;
+        setSampleTime(sampleTime);
         this.Kp = proportionalGain;
         this.Ki = integralGain;
         this.Kd = derivativeGain;
@@ -48,5 +50,12 @@ public final class PID_IND {
         
         prevError = error;
         return controlVariable;
+    }
+    
+    //Interface
+    
+    @Override
+    public void setSampleTime(double Ts) {
+        this.Ts = Ts;
     }
 }
