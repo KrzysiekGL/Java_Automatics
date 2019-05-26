@@ -103,7 +103,7 @@ public class FirstOrderLag implements GlobalSettings {
         
         currState = af1 * prevState + bf0 * inputSignal + bf1 * prevInputSignal;
         
-        prevInputSignal = currState;
+        prevState = currState;
         prevInputSignal = inputSignal;
         
         return currState;
