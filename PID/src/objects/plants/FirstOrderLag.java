@@ -5,21 +5,20 @@ import objects.GlobalSettings;
 import java.util.zip.DeflaterOutputStream;
 
 public class FirstOrderLag implements GlobalSettings {
-    private double Ts;      //sample time
+    private Double Ts;      //sample time
     
-    private double k;       //static gain
-    private double alpha;
-    private double Tb;      //lag time
+    private Double k;       //static gain
+    private Double alpha;
+    private Double Tb;      //lag time
     
     //signals
     private Double prevState;
-    private Double currState;
     private Double prevInputSignal;
     
     //parameters of approximated function from Z-transform
-    private double af1;
-    private double bf0;
-    private double bf1;
+    private Double af1;
+    private Double bf0;
+    private Double bf1;
     
     //constructors
     public FirstOrderLag(double sampleTime, double k, double alpha, double Tb) {
@@ -77,10 +76,10 @@ public class FirstOrderLag implements GlobalSettings {
     }
     
     private void calculatePlantParametersAB() {
-        double a0 = k*Ts;
-        double a1 = k*Ts;
-        double b0 = alpha*Ts + 2*Tb;
-        double b1 = alpha*Ts - 2*Tb;
+        Double b0 = k;
+        Double b1 = k;
+        Double a0 = (Tb*2.0)/Ts + alpha;
+        Double a1 = alpha - (Tb*2.0)/Ts;
         
         af1 = -a1/a0;
         bf0 = b0/a0;
@@ -98,10 +97,10 @@ public class FirstOrderLag implements GlobalSettings {
         if(prevInputSignal == null) {
             prevInputSignal = inputSignal;
             prevState = 0.0;
-            return null;
+            return 0.0;
         }
-        
-        currState = af1 * prevState + bf0 * inputSignal + bf1 * prevInputSignal;
+    
+        Double currState = af1 * prevState + bf0 * inputSignal + bf1 * prevInputSignal;
         
         prevState = currState;
         prevInputSignal = inputSignal;

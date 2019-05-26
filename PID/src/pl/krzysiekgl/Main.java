@@ -8,7 +8,7 @@ public class Main {
     private static final double TS = 0.1;
 
     public static void main(String[] args) {
-        FirstOrderLag firstOrderLag = new FirstOrderLag(0.1, 3, 3, 1);
+        FirstOrderLag firstOrderLag = new FirstOrderLag(TS, 3, 3, 1);
         
         int step = 0;
         while(true) {
