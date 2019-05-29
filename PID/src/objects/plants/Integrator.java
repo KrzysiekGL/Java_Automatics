@@ -2,14 +2,11 @@ package objects.plants;
 
 import objects.GlobalSettings;
 
-import java.util.zip.DeflaterOutputStream;
-
-public class FirstOrderLag implements GlobalSettings {
-    private Double Ts;      //sample time
+public class Integrator implements GlobalSettings {
+    private Double Ts;          //sample time
     
-    private Double k;       //static gain
-    private Double alpha;
-    private Double Tb;      //lag time
+    private Double k;           //static gain
+    private Double Ti;          //integration time
     
     //signals
     private Double prevState;
@@ -21,57 +18,46 @@ public class FirstOrderLag implements GlobalSettings {
     private Double bf1;
     
     //constructors
-    public FirstOrderLag(double sampleTime, double k, double alpha, double Tb) {
+    public Integrator(Double sampleTime, Double k, Double Ti) {
         setSampleTime(sampleTime);
         this.k = k;
-        this.alpha = alpha;
-        this.Tb = Tb;
-        
+        this.Ti = Ti;
+    
         prevState = null;
         prevInputSignal = null;
         
         calculatePlantParametersAB();
     }
     
-    public FirstOrderLag(double k, double alpha, double Tb) {
-        this(0.1, k, alpha, Tb);
+    public Integrator(Double k, Double Ti) {
+        this(0.1, k, Ti);
     }
     
-    
     //getters and setters
-    public double getK() {
+    public Double getTs() {
+        return Ts;
+    }
+    
+    public void setTs(Double ts) {
+        Ts = ts;
+        calculatePlantParametersAB();
+    }
+    
+    public Double getK() {
         return k;
     }
     
-    public void setK(double k) {
+    public void setK(Double k) {
         this.k = k;
         calculatePlantParametersAB();
     }
     
-    public double getAlpha() {
-        return alpha;
+    public Double getTi() {
+        return Ti;
     }
     
-    public void setAlpha(double alpha) {
-        this.alpha = alpha;
-        calculatePlantParametersAB();
-    }
-    
-    public double getTb() {
-        return Tb;
-    }
-    
-    public void setTb(double tb) {
-        Tb = tb;
-        calculatePlantParametersAB();
-    }
-    
-    public double getTs() {
-        return Ts;
-    }
-    
-    public void setTs(double ts) {
-        Ts = ts;
+    public void setTi(Double ti) {
+        Ti = ti;
         calculatePlantParametersAB();
     }
     
@@ -79,15 +65,15 @@ public class FirstOrderLag implements GlobalSettings {
     private void calculatePlantParametersAB() {
         Double b0 = k;
         Double b1 = k;
-        Double a0 = (Tb*2.0)/Ts + alpha;
-        Double a1 = alpha - (Tb*2.0)/Ts;
+        Double a0 = (2.0*Ti)/(Ts);
+        Double a1 = (-2.0*Ti)/(Ts);
         
         af1 = -a1/a0;
         bf0 = b0/a0;
         bf1 = b1/a0;
     }
     
-    //Interface
+    //implemented interface
     @Override
     public void setSampleTime(Double Ts) {
         this.Ts = Ts;
@@ -102,10 +88,10 @@ public class FirstOrderLag implements GlobalSettings {
         }
     
         Double currState = af1 * prevState + bf0 * inputSignal + bf1 * prevInputSignal;
-        
+    
         prevState = currState;
         prevInputSignal = inputSignal;
-        
+    
         return currState;
     }
 }

@@ -3,49 +3,49 @@ package objects.pidcontrollers;
 import objects.GlobalSettings;
 
 public final class PID_IND implements GlobalSettings {
-    private double Ts;  //sample time
-    private double Kp;  //proportional gain
-    private double Ki;  //integral gain
-    private double Kd;  //derivative gain
+    private Double Ts;  //sample time
+    private Double Kp;  //proportional gain
+    private Double Ki;  //integral gain
+    private Double Kd;  //derivative gain
     
-    private double prevError;
-    private double integralVal;
+    private Double prevError;
+    private Double integralVal;
     
-    public PID_IND(double sampleTime, double proportionalGain, double integralGain, double derivativeGain) {
+    public PID_IND(Double sampleTime, Double proportionalGain, Double integralGain, Double derivativeGain) {
         setSampleTime(sampleTime);
         this.Kp = proportionalGain;
         this.Ki = integralGain;
         this.Kd = derivativeGain;
         
-        prevError = 0;
-        integralVal = 0;
+        prevError = 0.0;
+        integralVal = 0.0;
     }
     
-    public PID_IND(double sampleTime) {
-        this(sampleTime, 0, 0, 0);
+    public PID_IND(Double sampleTime) {
+        this(sampleTime, 0.0, 0.0, 0.0);
     }
     
     //PID_IND tuning
-    public void setKp(double kp) {
+    public void setKp(Double kp) {
         Kp = kp;
     }
     
-    public void setKi(double ki) {
+    public void setKi(Double ki) {
         Ki = ki;
     }
     
-    public void setKd(double kd) {
+    public void setKd(Double kd) {
         Kd = kd;
     }
     
     //PID_IND algorithm
-    public double calculate(double setPoint, double processValue) { //returns Control Variable
-        double controlVariable = 0;
-        double error = setPoint - processValue;
+    public Double calculate(Double setPoint, Double processValue) { //returns Control Variable
+        Double controlVariable = 0.0;
+        Double error = setPoint - processValue;
         
         //calculations
         integralVal += error * Ts;
-        double derivative = (error - prevError) / Ts;
+        Double derivative = (error - prevError) / Ts;
         controlVariable = Kp * error + Ki * integralVal + Kd * derivative;
         
         prevError = error;
@@ -55,7 +55,7 @@ public final class PID_IND implements GlobalSettings {
     //Interface
     
     @Override
-    public void setSampleTime(double Ts) {
+    public void setSampleTime(Double Ts) {
         this.Ts = Ts;
     }
 }

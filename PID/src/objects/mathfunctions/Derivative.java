@@ -2,8 +2,10 @@ package objects.mathfunctions;
 
 import objects.GlobalSettings;
 
+import java.util.zip.DeflaterOutputStream;
+
 public final class Derivative implements GlobalSettings {
-    private double Ts;             //sample time in milliseconds
+    private Double Ts;             //sample time in milliseconds
     private double prevValue;   //previous value necessary for calculations
     
     public Derivative(double sampleTime, double initialCondition) {
@@ -34,7 +36,7 @@ public final class Derivative implements GlobalSettings {
     
     //Interface
     @Override
-    public void setSampleTime(double Ts) {
+    public void setSampleTime(Double Ts) {
         this.Ts = Ts;
     }
 }

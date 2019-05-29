@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb8a892-39bc-4e7d-b85c-14a4ac327759" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/objects/plants/Integrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/plants/PlantMethodsd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Automatics/objects/GlobalSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Automatics/objects/GlobalSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Automatics/objects/mathfunctions/Derivative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Automatics/objects/mathfunctions/Derivative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Automatics/objects/mathfunctions/Integral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Automatics/objects/mathfunctions/Integral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Automatics/objects/pidcontrollers/PID_IND.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Automatics/objects/pidcontrollers/PID_IND.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Automatics/objects/plants/FirstOrderLag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Automatics/objects/plants/FirstOrderLag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Automatics/pl/krzysiekgl/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Automatics/pl/krzysiekgl/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/GlobalSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/GlobalSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/mathfunctions/Integral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/mathfunctions/Integral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" afterDir="false" />
     </list>
@@ -20,8 +33,58 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="228">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="41" column="94" lean-forward="true" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+              <folding>
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/mathfunctions/Integral.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,23 +92,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="78" column="45" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/plants/Integrator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1786">
+              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+              <folding>
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/plants/PlantMethodsd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -60,6 +141,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>double</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -73,12 +159,14 @@
         <option value="$PROJECT_DIR$/src/pl/krzysiekgl/Integral.java" />
         <option value="$PROJECT_DIR$/src/pl/krzysiekgl/Derivative.java" />
         <option value="$PROJECT_DIR$/src/pl/krzysiekgl/PID_IND.java" />
-        <option value="$PROJECT_DIR$/src/objects/GlobalSettings.java" />
-        <option value="$PROJECT_DIR$/src/objects/mathfunctions/Integral.java" />
-        <option value="$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java" />
-        <option value="$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java" />
         <option value="$PROJECT_DIR$/src/objects/plants/FirstOredrLag.java" />
+        <option value="$PROJECT_DIR$/src/objects/GlobalSettings.java" />
         <option value="$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java" />
+        <option value="$PROJECT_DIR$/src/objects/plants/Integrator.java" />
+        <option value="$PROJECT_DIR$/src/objects/plants/PlantMethodsd.java" />
+        <option value="$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java" />
+        <option value="$PROJECT_DIR$/src/objects/mathfunctions/Integral.java" />
+        <option value="$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java" />
         <option value="$PROJECT_DIR$/src/pl/krzysiekgl/Main.java" />
       </list>
     </option>
@@ -99,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -118,13 +205,6 @@
               <item name="PID" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="mathfunctions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PID" type="b2602c69:ProjectViewProjectNode" />
@@ -157,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,6 +245,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -210,18 +292,18 @@
       <workItem from="1558379651221" duration="3328000" />
       <workItem from="1558383108831" duration="2039000" />
       <workItem from="1558472253811" duration="5715000" />
-      <workItem from="1558873160100" duration="6743000" />
+      <workItem from="1558873160100" duration="8068000" />
+      <workItem from="1559164077771" duration="3414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23784000" />
+    <option name="totallyTimeSpent" value="28523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="119" width="1922" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18423855" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.185836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -262,40 +344,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/AnalogScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/GlobalSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/AnalogScheme.java" />
     <entry file="file://$PROJECT_DIR$/src/objects/mathfunctions/Gain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -307,13 +357,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/GlobalSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/plants/PlantMethodsd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="78" column="45" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/plants/Integrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/mathfunctions/Derivative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/mathfunctions/Integral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="361">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#1004#1005#0" expanded="true" />
             <element signature="e#1032#1033#0" expanded="true" />
           </folding>
@@ -322,37 +424,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/pidcontrollers/PID_IND.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/plants/FirstOrderLag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        <state relative-caret-position="521">
+          <caret line="41" column="94" lean-forward="true" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/krzysiekgl/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="228">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
